@@ -8,3 +8,4 @@ type Instrucure struct{
 	Score int
 }
 
+

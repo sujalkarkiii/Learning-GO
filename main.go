@@ -22,51 +22,53 @@
 package main
 
 import (
-	"fmt"
+	// "fmt"
+	// package1 "practice/Package1"
 	package1 "practice/Package1"
-	package2 "practice/Package2"
+	// package2 "practice/Package2"
 )
 
 func main()  {
-	 max:= package2.Instrucure{Firstname: "sujal" }
-	 fmt.Print(max.Firstname)
+	//  max:= package2.Instrucure{Firstname: "sujal" }
+	//  fmt.Print(max.Firstname)
 
 
-	package1.Controlsif()
-	package1.Controlsfor()
-    defer fmt.Println("This runs at last") 
+	// package1.Controlsif()
+	// package1.Controlsfor()
+    // defer fmt.Println("This runs at last") 
 
-	var operation string
-	var number1, number2 int
-
-
-	fmt.Println("Calculator:")
-	fmt.Println("Enter the opetation you want to perform (add,subtract,multiply,divide)")
-	fmt.Scanf("%s",&operation)
-	fmt.Println("Enter first number:")
-	fmt.Scanf("%d",&number1)
-	fmt.Println("Enter second number:")
-	fmt.Scanf("%d",&number2)
+	// var operation string
+	// var number1, number2 int
 
 
-	switch operation{
-	case "add":
-		fmt.Println(number1+number2)
-	case "subtract":
-		fmt.Println(number1-number2)
+	// fmt.Println("Calculator:")
+	// fmt.Println("Enter the opetation you want to perform (add,subtract,multiply,divide)")
+	// fmt.Scanf("%s",&operation)
+	// fmt.Println("Enter first number:")
+	// fmt.Scanf("%d",&number1)
+	// fmt.Println("Enter second number:")
+	// fmt.Scanf("%d",&number2)
 
-	case "multiply":
-		fmt.Println(number1*number2)
-	case "divide":
-		if number2==0{
-			panic("cannt divide by zero")
-		}
-		fmt.Println(number1/number2)
+
+	// switch operation{
+	// case "add":
+	// 	fmt.Println(number1+number2)
+	// case "subtract":
+	// 	fmt.Println(number1-number2)
+
+	// case "multiply":
+	// 	fmt.Println(number1*number2)
+	// case "divide":
+	// 	if number2==0{
+	// 		panic("cannt divide by zero")
+	// 	}
+	// 	fmt.Println(number1/number2)
 	
-	default:
-		panic("Invalid Operation") 
-	}
-
+	// default:
+	// 	panic("Invalid Operation") 
+	// }
+			// package2.Learnmap()
+			package1.Jsoning()
 }
 
 

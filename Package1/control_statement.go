@@ -19,19 +19,6 @@ func Controlsfor()  {
 	}
 }
 
-
-// func Array()  {
-// 	var arr[3] int 
-// 	arr[0]=10
-// 	arr[1]=10
-// 	arr[2]=10
-// 	fmt.Println(arr)   
-// }
-
-// func Slice()  {
-// 	slices:= []int{1,2,3}
-// 	slices= append(slices, 6)
-// 	fmt.Println(slices)
-// }
-
-
+// Array are fixed sized collection we can slice array to create sub-section
+// maps are key value pair that done support slices
+// slices can be reslice append copy itterare and manipulate
