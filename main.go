@@ -24,7 +24,7 @@ package main
 import (
 	// "fmt"
 	// package1 "practice/Package1"
-	package1 "practice/Package1"
+	// package1 "practice/Package1"
 	// package2 "practice/Package2"
 )
 
@@ -68,7 +68,9 @@ func main()  {
 	// 	panic("Invalid Operation") 
 	// }
 			// package2.Learnmap()
-			package1.Jsoning()
+			// package1.Jsoning()
+			// Pass()
+			
 }
 
 

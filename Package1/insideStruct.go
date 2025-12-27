@@ -11,7 +11,8 @@ type User struct {
 
 
 func Runningthis()  {
-		u1 := User{ Name: "Sujal", Addr: Address{City: "Kathmandu"} }
+		u1 := User{ Name: "Sujal", Addr:
+		 Address{City: "Kathmandu"} }
 		// also can be done as
 		u2:=User{"Sujal",Address{"biratnagar"}}
 		fmt.Println(u1)
