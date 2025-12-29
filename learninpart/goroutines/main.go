@@ -12,9 +12,7 @@ func printMessage(text string, channel chan string) {
 	channel <- "Done" // send message to main goroutine
 		close(channel)   
 }
-
 func main(){ //main goroutine
-
 
 // here we have to wait for first function pass
 // to complete along some time to complete
@@ -27,7 +25,6 @@ func main(){ //main goroutine
 // we have maingoroutine printgoroutine initially maingoroutine runs till } 
 // if all are gorotuine than since all are running in own rotuine
 //  main dont have anything to do that it does nothing
-
 
 	channel := make(chan string)
 	go printMessage("go is great",channel)
